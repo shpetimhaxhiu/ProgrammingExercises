@@ -3,6 +3,7 @@ name: Actions smoke test
 on:
   push:
     branches:
+      - master
       - ci/actions-test
   pull_request:
     branches:
