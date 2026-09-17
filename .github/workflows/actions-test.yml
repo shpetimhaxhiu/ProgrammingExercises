@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - ci/actions-test
+  pull_request:
+    branches:
+      - master
 
 jobs:
   test:
